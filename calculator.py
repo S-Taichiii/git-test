@@ -11,6 +11,10 @@ class Calculator:
     def mul(a, b):
         return a * b
 
+    @staticmethod
+    def div(a, b):
+        return a / b
+
 if __name__ == "__main__":
     numa = 4
     numb = 2
@@ -18,3 +22,5 @@ if __name__ == "__main__":
     print(Calculator.add(numa, numb))
     print(Calculator.sub(numa, numb))
     print(Calculator.mul(numa, numb))
+    print(Calculator.div(numa, numb))
+    
